@@ -1,5 +1,6 @@
 # Py3Bruteforce a new way for bruteforcing with Python
 
+## Warning
 This was made only for educational, not for hacking ! Use it at your own risk!
 
 ## About
