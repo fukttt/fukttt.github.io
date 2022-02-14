@@ -1,4 +1,4 @@
-title: "FUKTTT Home page"
+title: "FUKTTT"
 author: "fukttt"
 description: "Here some interesting posts about software engineering" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
@@ -6,7 +6,7 @@ description: "Here some interesting posts about software engineering" # This wil
 # All of these are optional and can be removed or commented out
 #email: ""
 #twitter_username: "twitteruser"
-github_username: "desired666"
+github_username: "fukttt"
 #linkedin_username: "linkedinuser"
 #facebook_username: username
 #flickr_username: username
@@ -24,7 +24,7 @@ rss: rss
 
 kramdown:
   syntax_highlighter_opts:
-    disable: true
+    disable: false
     
 plugins:
   - jekyll-feed
