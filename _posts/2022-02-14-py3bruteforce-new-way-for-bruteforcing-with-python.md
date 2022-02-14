@@ -8,13 +8,30 @@ This was made only for educational, not for hacking ! Use it at your own risk!
 Py3Bruteforce is a web-service which allows you to write your own configs and work with them. 
 Config-size is about 70-80 lines of code.
 
-Sample : 
 
-  
-<details>
-<summary>Config sample</summary>
-This is a sample config written for pornhub
-  
+## Dashboard screenshot :
+
+![Dashboard](https://github.com/fukttt/fukttt.github.io/raw/main/image/1.png)
+
+Here you can see 
+* Dashboard with running projects
+* Wiki (for now he is empty)
+* Logs (page with logs from projects)
+* Upload files (uploading module/sources/proxies)
+* System info (about CPU using in graph)
+* Available modules (where u can choose module and run it)
+
+## Installation
+
+```bash
+git clone https://github.com/fukttt/py3bruteforce.git
+cd pybruteforce/
+pip3 install -r requirements.txt
+python3 app.py
+```
+
+### Sample config for PornHub
+
 ```python
   import requests
   from utils.utils import Help
@@ -88,27 +105,5 @@ This is a sample config written for pornhub
               #print(e, exc_type, fname, exc_tb.tb_lineno)
               return "error"
   ```
-</details>
-
-## Dashboard screenshot :
-
-![Dashboard](https://github.com/fukttt/fukttt.github.io/raw/main/image/1.png)
-
-Here you can see 
-* Dashboard with running projects
-* Wiki (for now he is empty)
-* Logs (page with logs from projects)
-* Upload files (uploading module/sources/proxies)
-* System info (about CPU using in graph)
-* Available modules (where u can choose module and run it)
-
-## Installation
-
-```bash
-git clone https://github.com/fukttt/py3bruteforce.git
-cd pybruteforce/
-pip3 install -r requirements.txt
-python3 app.py
-```
 
 
